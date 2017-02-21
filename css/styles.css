@@ -115,7 +115,7 @@ input, textarea {
   flex-grow: 1;
   padding: 2rem;
   max-width: 130px;}
-  @media (min-width: 22.5em) {
+  @media (min-width: 415px) {
   .beerImg img {
   max-width: 100px; } }
 
@@ -124,9 +124,9 @@ input, textarea {
   background: #eee;
   padding: 0.5rem;
   display: flex;
-  align-items: center;
+  /*align-items: center;*/
   flex-wrap: wrap; }
-  @media (min-width: 22.5em) {
+  @media (min-width: 415px) {
   .beer {
   flex-wrap: nowrap; } }
 
